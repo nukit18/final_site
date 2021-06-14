@@ -1,0 +1,144 @@
+body{
+    background-image:url("../images/back.jpg");
+    background-size: cover;
+}
+
+.lefted{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  font: bold 20px/22px Helvetica, Sans-Serif;
+  color: #c9c9c9;
+  background: #00000094;
+  padding: 8px;
+}
+
+.lefted1{
+  position: absolute;
+  top: 0%;
+  left: 70%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  font: bold 20px/22px Helvetica, Sans-Serif;
+  color: #c9c9c9;
+  background: #00000094;
+  padding: 8px;
+}
+
+._boost{
+  opacity: 0.8;
+  height: 240px;
+  width: 240px;
+}
+
+._boost:hover{
+  opacity: 0.9;
+  height: 240px;
+  width: 240px;
+}
+
+._boost:active{
+  height: 240px;
+  width: 240px;
+  opacity: 1;
+  src
+}
+
+._boost:disabled{
+  opacity: 0.3;
+}
+
+.cookie{
+  opacity: 0.8;
+  background: url("../images/cookie.png") no-repeat;
+  background-size: cover;
+  height: 240px;
+  width: 240px;
+}
+
+.cookie:hover{
+  opacity: 0.9;
+  background: url("../images/cookie.png") no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.cookie:active{
+  background: url("../images/cookie-click.png") no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  src
+}
+
+.boost{
+  opacity: 0.8;
+  height: 240px;
+  width: 240px;
+}
+
+.boost-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   flex: 1;
+}
+
+.boost-holder{
+  opacity: 0.8;
+  height: 240px;
+  width: 240px;
+  position: relative;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered_boost {
+  position: absolute;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.boost_text {
+position: absolute;
+bottom: 10%;
+text-transform: uppercase;
+color: #c9c9c9;
+width: 300px;
+}
+
+.boost_text span {
+font: bold 10px/8px Helvetica, Sans-Serif;
+background: #00000094;
+padding: 4px;
+}

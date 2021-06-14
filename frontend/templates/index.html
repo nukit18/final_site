@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="{% static 'js/index.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="utf-8">
+    <div>
+      <title >Title </title>
+    </div>
+  </head>
+  <body onload="getUser({{user.id}})">
+     <main>
+       <div class="split left">
+           <div class="lefted">
+        <h3> Привет, <div id="user">%user%<div/>!</h3>
+        <div class="logout"><a href="/logout">ВЫЙТИ</a></div>
+               <h3> Мощность нажатия: <div id="click_power">%clickPower%</div>печенек.</h3>
+        <h3> Автоклик: <div id="auto_click_power"> {{mainCycle.autoClickPower}} </div>печенек в секунду.</h3>
+               </div>
+
+        <h3 class="lefted1">У вас <div id="data">%coins%</div>печенек.</h3>
+
+
+           <div class="centered">
+        <div class="cookie" onclick="callClick()"> </div>
+           </div>
+      </div>
+
+       <div class="split right">
+         <div class="centered_boost">
+            <div class="boost-wrapper" id="boost-wrapper"></div>
+           </div>
+       </div>
+    </main>
+  </body>
+</html>
